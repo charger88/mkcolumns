@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+/* HTML5 defaults */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {background: none repeat scroll 0 0 transparent; border: 0 none; font-size: 100%; margin: 0; outline: 0 none; padding: 0; vertical-align: baseline; }
+article, aside, figcaption, figure, footer, header, hgroup, nav, section, time {display: block;}
+
+/* Theme */
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	min-width: 999px;
+}
+
+a {
+	color: #338bff;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+header div.content {
+	background: #222222;
+	text-align: center;
+}
+
+header div.content h1  {
+	font-size: 12pt;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+header div#logo {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 48pt;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+	height: 100px;
+    line-height: 100px;
+}
+
+footer {
+	border-top: 5px solid #222222;
+	padding: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.color-1 {
+	color: #ffa733;
+}
+
+.color-2 {
+	color: #adff33;
+}
+
+.body {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.column-left,
+.column-right {
+	width: 240px;
+}
+
+.main {
+	box-sizing: border-box;
+	width: 480px;
+	padding: 0 40px;
+}
+
+.main,
+.column-left,
+.column-right {
+	float: left;
+}
+
+.column-right dl dd {
+	font-size: 8pt;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#ruler {
+	width: 6px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    margin-left: -222px;
+}
+
+#ruler > div {
+	height: 50px;
+	background: rgba(0,0,0,0.25);
+}
+
+#ruler > div:nth-child(odd) {
+	background: rgba(0,0,0,0.5);
+}
